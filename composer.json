@@ -1,0 +1,20 @@
+{
+    "name": "wp-cli/scrub-old-posts",
+    "description": "Remove old posts from WP",
+    "type": "wp-cli-package",
+    "homepage": "https://github.com/abdallah/scrub-old-posts",
+    "license": "MIT",
+    "authors": [
+        {
+                "name": "Abdallah Deeb",
+                "email": "abdallah@deeb.me",
+                "homepage": "https://deeb.me"
+            }
+        ],
+    "require": {
+        "php": ">=5.3.29"
+    },
+    "autoload": {
+        "files": [ "scrub-old-posts.php" ]
+    }
+}
